@@ -28,9 +28,9 @@ Certaines améliorations auraient pu être faites, mais le projet étant plus co
 
 Les images utilisées ne sont pas libres de droits, Blizzard ne fournis pas d'assets gratuits.
 
-### Lancement du projet `npm start`
+### Lancement du projet
 
-Démarrer l'application à la racine du projet.\
+Exécuter `npm install` puis `npm start` à la racine du projet.\
 Ouvrir [http://localhost:3000](http://localhost:3000) dans le navigateur.
 
 
