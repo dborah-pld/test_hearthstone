@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+# Test technique sur l'API Hearthstone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet a été effectué via l'api : https://rapidapi.com/omgvamp/api/hearthstone
 
-## Available Scripts
+### Les consignes étaient les suivantes
+L’application doit comporter :
 
-In the project directory, you can run:
+- Un champ de recherche pour trouver une carte via son nom (attention, il faut préciser la
+langue à l’API pour faire des recherches dans la bonne langue).
+- Un système de visualisation des cartes trouvées pour permettre l’ajout au deck.
+- Une page de visualisation du deck avec la possibilité d’en retirer des cartes.
 
-### `npm start`
+L’application front-end doit être réalisée en Javascript.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Bonus :
+- Rendre compatible l’application web sur tablette et mobile
+- Utiliser React
+- Utiliser Typescript
+- Faire un deck de 30 cartes mais pour une même "class" (typologie de héro)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Notes sur le code fourni
 
-### `npm test`
+Ce projet a été fait via l'api donnée, qui malheureusement ne comportait pas les retours les plus simples à traiter.\
+Certaines images et données (liste des héros fausse, images manquantes) ont du être ajoutées en dur pour restituer la fidélité des informations du jeu.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Certaines améliorations auraient pu être faites, mais le projet étant plus conséquent que prévu (temps de recherche des assets, création du parcours, responsive design, prise en compte des retours API...), ces améliorations ne sont pas présentes (ajout de carte en double lorsqu'elles le permettent, modal de validation de suppression...).
 
-### `npm run build`
+Les images utilisées ne sont pas libres de droits, Blizzard ne fournis pas d'assets gratuits.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Lancement du projet `npm start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Démarrer l'application à la racine du projet.\
+Ouvrir [http://localhost:3000](http://localhost:3000) dans le navigateur.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
