@@ -21,7 +21,7 @@ Bonus :
 ## Notes sur le code fourni
 
 Ce projet a été fait via l'api donnée, qui malheureusement ne comportait pas les retours les plus simples à traiter.\
-Certaines images et données (liste des héros fausse, images manquantes) ont du être ajoutées en dur pour restituer la fidélité des informations du jeu.
+Certaines images et données (liste des héros fausse, images manquantes) ont du être ajoutées en dur pour restituer la fidélité des informations du jeu.\
 Pour information, les cartes sont filtrées par Class (donc accessibles par le héro, ainsi que les Neutres), mais les cartes sont également triées arbitrairement par leur présence dans les extensions/versions du jeu (afin d'éviter d'avoir autant de fois la carte qu'elle n'est présente dans les versions/extensions, comme l'API les retourne).
 
 Certaines améliorations auraient pu être faites, mais le projet étant plus conséquent que prévu (temps de recherche des assets, création du parcours, responsive design, prise en compte des retours API...), ces améliorations ne sont pas présentes (ajout de carte en double lorsqu'elles le permettent, modal de validation de suppression...).
